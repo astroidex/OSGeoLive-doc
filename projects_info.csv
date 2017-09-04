@@ -18,7 +18,7 @@ Y  |  geomajas  |NA|  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client
 Y  |  geomoose  |  2.9.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Portal  |  geomoose
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet
-Y  |  mapbender  |  3.0.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender
+Y  |  mapbender  |  3.0.6.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender
 Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers
 ######################||||||||
 #   Web Services  ||||||||
