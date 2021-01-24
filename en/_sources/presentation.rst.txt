@@ -888,13 +888,13 @@ OSGeoLive
         :title-heading: h3
   
 
-            =================== =============== =============== ================
-            =================== =============== =============== ================
-              |gmt_logo|         |otb_logo|      |R_logo|        |mapnik_logo|
-              GMT                OTB             R               Mapnik       
-              |mapslicer_logo|            
-              MapSlicer                   
-            =================== =============== =============== ================
+            =================== ================== =============== ================
+            =================== ================== =============== ================
+              |gmt_logo|         |otb_logo|         |R_logo|        |mapnik_logo|
+              GMT                OTB                R               Mapnik       
+              |mapslicer_logo|   |jupyter_logo|          
+              MapSlicer          Jupyter Notebook        
+            =================== ================== =============== ================
 
 
 
@@ -965,6 +965,19 @@ OSGeoLive
         .. rv_note::
             Note 
             MapSlicer provides a desktop interface for creating tiles, which can then be stored on the local filesystem or published via direct upload to any webserver or cloud storage. Browser viewing is provided by OpenLayers and Google Maps and can be easily customized.
+
+
+
+
+    .. revealjs:: Jupyter Notebook
+        :title-heading: h3
+  
+        .. image:: ../images/projects/jupyter/jupyter_screenshot.png
+            :height: 600
+
+        .. rv_note::
+            Note 
+            Jupyter notebooks contain a list of input and output cells which allow you to embed rich media into a document. They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create presentations using structured text along with embedded rich media. Input cells can include geospatial functions from other applications, such as gdal, R, and many others.
 
 
 
@@ -1313,6 +1326,7 @@ OSGeoLive
 .. |R_logo| image:: ../images/projects/R/logo_R.png
 .. |mapnik_logo| image:: ../images/projects/mapnik/logo_mapnik.png
 .. |mapslicer_logo| image:: ../images/projects/mapslicer/logo_mapslicer.png
+.. |jupyter_logo| image:: ../images/projects/jupyter/logo_jupyter.png
 .. |zygrib_logo| image:: ../images/projects/zygrib/logo_zygrib.png
 .. |naturalearth_logo| image:: ../images/projects/naturalearth/logo_naturalearth.png
 .. |nc_dataset_logo| image:: ../images/projects/nc_dataset/logo_nc_dataset.png
