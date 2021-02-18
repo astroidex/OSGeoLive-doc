@@ -26,8 +26,8 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Recherche" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="EOxServer Quickstart" href="../quickstart/eoxserver_quickstart.html" />
-    <link rel="prev" title="ncWMS Quickstart" href="../quickstart/ncWMS_quickstart.html" />
+    <link rel="next" title="Guide de démarrage rapide EOxServer" href="../quickstart/eoxserver_quickstart.html" />
+    <link rel="prev" title="actinia Quickstart" href="../quickstart/actinia_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -76,7 +76,9 @@
 <h2>A propos<a class="headerlink" href="#about" title="Lien permanent vers ce titre">¶</a></h2>
 <p>EOxServer est un serveur pour présenter des archives de données Earth Observation (EO) de grande taille et des métadonnées via des standards ouverts</p>
 <p>La donnée Earth Observation supportée actuellement inclut de la donnée raster 2D généralement acquise en utilisant des capteurs sur des satellites ou des avions et incluant des informations sur l’heure d’acquisition et l’empreinte sur la planète Terre. Elle est typiquement utilisée pour surveiller l’environnement naturel et construit de la Terre.</p>
-<p>EOxServer est construit sur une pile de logiciels Open Source qui inclue Python, <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ.4, et les bases de données <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> ou <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> .</p>
+<p>EOxServer builds upon an Open Source stack of software which includes
+Python, <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ, and a <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> or
+<a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> database.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_screenshot.png"><img alt="eoxserver screenshot" class="align-right" src="../../_images/eoxserver_screenshot.png" style="width: 500px;" /></a>
 </div>
 <div class="section" id="core-features">
@@ -92,6 +94,7 @@
 <li>Les protocoles supportés sont: KVP et XML/POST (utilisés ensemble avec le proxy SOAP2POSTpour fournir aussi XML/SOAP)</li>
 </ul>
 </li>
+<li>Register data stored in S3</li>
 <li>Publier en utilisant les formats et regroupements suivants:<ul>
 <li>Couvertures 2-D EO dérivées de gmlcov:RectifiedGridCoverage</li>
 <li>Couvertures 2-D EO dérivées de gmlcov:ReferenceableGridCoverage</li>
@@ -124,7 +127,7 @@
 <h2>Détails<a class="headerlink" href="#details" title="Lien permanent vers ce titre">¶</a></h2>
 <p><strong>Site web:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/">https://docs.eoxserver.org/en/stable/</a></p>
 <p><strong>Licence:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/latest/copyright.html#license">Licence style MIT</a></p>
-<p><strong>Version du logiciel:</strong> 1.0.0beta1</p>
+<p><strong>Version du logiciel:</strong> 1.0.0RC22</p>
 <p><strong>Plates-formes supportées:</strong> Linux, Windows, Mac</p>
 <p><strong>Interface d’API:</strong> Python</p>
 <p><strong>Support:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support">https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support</a></p>

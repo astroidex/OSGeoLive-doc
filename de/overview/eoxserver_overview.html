@@ -27,7 +27,7 @@
     <link rel="search" title="Suche" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
     <link rel="next" title="EOxServer Quickstart" href="../quickstart/eoxserver_quickstart.html" />
-    <link rel="prev" title="ncWMS Quickstart" href="../quickstart/ncWMS_quickstart.html" />
+    <link rel="prev" title="actinia Quickstart" href="../quickstart/actinia_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -76,7 +76,9 @@
 <h2>Über<a class="headerlink" href="#about" title="Link zu dieser Überschrift">¶</a></h2>
 <p>EOxServer ist ein Server, mit dem große Archive von Erdbeobachtungsdaten (Earth Observation - EO) über offene Standards zur Verfügung gestellt werden können.</p>
 <p>Die momentan unterstützen Erdbeobachtungsdaten beinhalten 2D Rasterdaten wie sie im Allgemeinen von Sensoren auf Satelliten oder Flugzeugen aufgenommen werden und welche Informationen zu Zeit und Ort (Fußabdruck auf der Erde) der Aufnahme enthalten. Diese Daten werden üblicherweise benutzt, um die natürliche und die bebaute Umwelt auf der Erde zu beobachten.</p>
-<p>EOxServer basiert komplett auf Open Source Software wie Python, <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ.4, und einer <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> oder <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> Datenbank.</p>
+<p>EOxServer builds upon an Open Source stack of software which includes
+Python, <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ, and a <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> or
+<a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> database.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_screenshot.png"><img alt="eoxserver screenshot" class="align-right" src="../../_images/eoxserver_screenshot.png" style="width: 500px;" /></a>
 </div>
 <div class="section" id="core-features">
@@ -92,6 +94,7 @@
 <li>Die unterstützen Protokolle sind: KVP und XML/POST (zusammen verwendet mit dem SOAP2POST Proxy auch XML/SOAP)</li>
 </ul>
 </li>
+<li>Register data stored in S3</li>
 <li>Veröffentlichung der folgenden Formate und Gruppierungen:<ul>
 <li>2-D EO Coverages abgeleitet von gmlcov:RectifiedGridCoverage</li>
 <li>2-D EO Coverages abgeleitet von gmlcov:ReferenceableGridCoverage</li>
@@ -124,7 +127,7 @@
 <h2>Details<a class="headerlink" href="#details" title="Link zu dieser Überschrift">¶</a></h2>
 <p><strong>Webseite:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/">https://docs.eoxserver.org/en/stable/</a></p>
 <p><strong>Lizenz:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/latest/copyright.html#license">MIT-style license</a></p>
-<p><strong>Software Version:</strong> 1.0.0beta1</p>
+<p><strong>Software Version:</strong> 1.0.0RC22</p>
 <p><strong>Unterstützte Plattformen:</strong> Linux, Windows, Mac</p>
 <p><strong>API Schnittstellen:</strong> Python</p>
 <p><strong>Support:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support">https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support</a></p>
